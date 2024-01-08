@@ -1,0 +1,21 @@
+class GfG
+{
+	public static int palinArray(int[] a, int n)
+           {
+                  //add code here.
+                  for(int i =0;i<n;i++){
+                      int num = a[i];
+                      int rev=0 ,rem;
+                      int OrgArr = num;
+                      while(num>0){
+                     rem = num%10;
+                     rev = rev*10 + rem;
+                     num = num/10;
+                  }
+                  if(OrgArr!=rev){
+                      return 0;
+                  }
+                  }
+                  return 1;
+           }
+}
