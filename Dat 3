@@ -1,0 +1,11 @@
+class Solution {
+    // function to return sum of  1, 2, ... n
+    long seriesSum(int n) {
+        // code here
+        long m = n;
+        long sum = ((m*(m+1))/2);
+        
+        return sum;
+        
+    }
+}
